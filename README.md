@@ -24,7 +24,7 @@ CoinFlix is the ultimate cryptocurrency and stock-market tracker and has an intu
 
 
 * GitHub repo link: [GitHub](https://github.com/Apurv428/CoinFlix)
-* Drive link: [Drive](https://drive.google.com/drive/folders/1ZmfBMEtB4kXJ2Nkdq5H-4-CCTHRwF7iU?usp=sharing)
+* Drive link: [Drive](https://drive.google.com/drive/folders/1v1VVJW-2SXQJYHhatBgd1d-K5_nduqeS?usp=sharing)
 * Website link: [Website](https://coinflix.vercel.app/)
 
 ## Technology stack
