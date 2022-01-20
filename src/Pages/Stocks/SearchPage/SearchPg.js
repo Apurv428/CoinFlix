@@ -301,17 +301,6 @@ export default function SearchPgStock() {
                   onChange={(e) => setSearch(e.target.value.toUpperCase())}
                   onKeyPress={handleKeyDown}
                 />
-                <Button
-                  onClick={(e) => setSearch(e.target.value.toUpperCase())}
-                  variant="contained"
-                  style={{
-                    marginLeft: -70,
-                    backgroundColor: "transparent",
-                    color: "white",
-                  }}
-                >
-                  <SearchIcon fontSize="small" />
-                </Button>
               </form>
             </div>
             {coins &&
