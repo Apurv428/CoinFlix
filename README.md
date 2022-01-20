@@ -9,6 +9,7 @@
 
 
 ## Description
+
 CoinFlix is the ultimate cryptocurrency and stock-market tracker and has an intuitive interface with all the data you need at your fingertips. It is easy to use for beginners too!
 
 * The stock or cryptocurrency is displayed when the user search for it.
@@ -22,7 +23,8 @@ CoinFlix is the ultimate cryptocurrency and stock-market tracker and has an intu
 * Drive link: [Drive](https://drive.google.com/drive/folders/1v1VVJW-2SXQJYHhatBgd1d-K5_nduqeS?usp=sharing)
 * Website link: [Website](https://coinflix.vercel.app/)
 
-## Technology stack
+## Tech stack
+
 <a href="https://www.w3.org/TR/html5/" title="HTML5"><img src="https://github.com/get-icon/geticon/raw/master/icons/html-5.svg" alt="HTML5" width="31px" height="31px"></a>
 <a href="https://www.w3.org/TR/CSS/" title="CSS3"><img src="https://github.com/get-icon/geticon/raw/master/icons/css-3.svg" alt="CSS3" width="31px" height="31px"></a>
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" title="JavaScript"><img src="https://github.com/get-icon/geticon/raw/master/icons/javascript.svg" alt="JavaScript" width="31px" height="31px"></a>
@@ -49,7 +51,7 @@ Tools and technologies that you learnt and used in the project.
 - [x] Implemented Vanta.js.
 - [x] Impented Firebase to store the data received from the form.
 
-<!-- List down all the tasks/features for your project and cross out the ones which are completed. -->
+## File structure
 📦CoinFlix.
 ┣ 📂public.
 ┃ ┣ 📜favicon.ico.
