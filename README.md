@@ -1,6 +1,6 @@
 # Project-name
 
-### Team name: Team Binary Beasts
+### Team name: Binary Beasts
 
 ## Team members
 
