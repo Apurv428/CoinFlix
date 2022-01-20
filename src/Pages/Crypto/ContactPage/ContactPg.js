@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './ContactPg.css'
+import './ContactPg.css';
 import { db } from './firebase'
 import { styled, useTheme } from '@mui/material/styles';
 import Box from '@mui/material/Box';

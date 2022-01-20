@@ -21,14 +21,12 @@ import DashboardTwoToneIcon from '@mui/icons-material/DashboardTwoTone';
 import NewspaperTwoToneIcon from '@mui/icons-material/NewspaperTwoTone';
 import InsertEmoticonTwoToneIcon from '@mui/icons-material/InsertEmoticonTwoTone';
 import SearchTwoToneIcon from '@mui/icons-material/SearchTwoTone';
+import ContactPageOutlinedIcon from '@mui/icons-material/ContactPageOutlined';
 import News from "./News";
 import { useNavigate } from "react-router-dom";
-import { blue } from '@mui/material/colors';
 import { makeStyles } from '@mui/styles';
 import ShowChartIcon from '@mui/icons-material/ShowChart';
 import { Link } from "react-router-dom";
-import Footer from '../../../Components/Footer'
-import ContactPageOutlinedIcon from '@mui/icons-material/ContactPageOutlined';
 
 const drawerWidth = 240;
 
@@ -108,8 +106,6 @@ export default function NewsPgCrypto() {
 
   const theme = useTheme();
   const [open, setOpen] = useState(false);
-  const pageSize = 9;
-  const apiKey = "76f51b9df6e04a998ddb1471f6b77181";
   const [progress, setProgress] = useState(0);
   const navigate = useNavigate();
   function handleClickHome() {
@@ -140,7 +136,7 @@ export default function NewsPgCrypto() {
   };
 
   return (
-    <Box sx={{ display: "flex" }}>
+      <Box sx={{ display: "flex" }}>
       <CssBaseline />
       <Divider />
       <AppBar position="fixed" open={open} sx={{ background: "#4B0082" }}>
@@ -228,15 +224,12 @@ export default function NewsPgCrypto() {
         <Typography>
           <News
             setProgress={setProgress}
-            apiKey={apiKey}
             key="business"
-            pageSize={pageSize}
             country="in"
             category="business"
           />
-          <Footer />
         </Typography>
       </Box>
     </Box>
   );
-}
+  }

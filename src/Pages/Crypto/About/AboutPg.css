@@ -1,43 +1,44 @@
 .developers {
-  font: bold 200% Consolas, Monaco, monospace;
-  border-right: 0.1em solid;
-  width: 13ch;
-  margin: 1em auto;
-  white-space: nowrap;
-  overflow: hidden;
-  text-align: center;
-  animation: typing 3s steps(13, end),
-      cursor-blink 0.3s step-end infinite alternate;
+    font: bold 200% Consolas, Monaco, monospace;
+    border-right: 0.1em solid;
+    width: 13ch;
+    margin: 1em auto;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+    animation: typing 3s steps(13, end), cursor-blink 0.3s step-end infinite alternate;
 }
-.about{
-  font: bold 200% Consolas, Monaco, monospace;
-  border-right: 0.1em solid;
-  width: 18ch;
-  margin: 1em auto;
-  white-space: nowrap;
-  overflow: hidden;
-  text-align: center;
-  animation: typing 3s steps(18, end),
-      cursor-blink 0.3s step-end infinite alternate;
+
+.about {
+    font: bold 200% Consolas, Monaco, monospace;
+    border-right: 0.1em solid;
+    width: 18ch;
+    margin: 1em auto;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+    animation: typing 3s steps(18, end), cursor-blink 0.3s step-end infinite alternate;
 }
 
 @keyframes typing {
-  from {
-      width: 0;
-  }
+    from {
+        width: 0;
+    }
 }
 
 @keyframes cursor-blink {
-  50% {
-      border-color: transparent;
-  }
+    50% {
+        border-color: transparent;
+    }
 }
-  .item {
+
+.item {
     background-color: white;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(160, 32, 240, 0.5);
-  }
-  .item:hover .hidden-content {
+}
+
+.item:hover .hidden-content {
     visibility: inherit;
     transform: translateX(-100px);
     background-color: #2a2a72;
@@ -45,27 +46,28 @@
     text-align: center;
     top: 0;
     z-index: 2;
-    border-radius:15px;
+    border-radius: 15px;
     padding: 3px;
     animation-name: bounce-up;
     animation-iteration-count: 1;
     animation-duration: 2s;
     transform-origin: bottom;
     animation-timing-function: ease;
-  }
-  @keyframes bounce-up {
+}
+
+@keyframes bounce-up {
     0% {
-      transform: translateY(0);
+        transform: translateY(0);
     }
     50% {
-      transform: translateY(-70px);
+        transform: translateY(-70px);
     }
     100% {
-      transform: translateY(0);
+        transform: translateY(0);
     }
-  }
-  
-  .showed-content:hover {
+}
+
+.showed-content:hover {
     cursor: pointer;
     bottom: 0;
     animation-name: bounce;
@@ -73,44 +75,48 @@
     animation-duration: 2s;
     transform-origin: bottom;
     animation-timing-function: ease;
-  }
-  @keyframes bounce {
+}
+
+@keyframes bounce {
     0% {
-      transform: translateY(0);
+        transform: translateY(0);
     }
     50% {
-      transform: translateY(50px);
+        transform: translateY(50px);
     }
     100% {
-      transform: translateY(0);
+        transform: translateY(0);
     }
-  }
-  .hidden-content {
+}
+
+.hidden-content {
     visibility: hidden;
-    text-align: right;
-    color:white;
-  }
-  .showed-content {
+    color: white;
+}
+
+.showed-content {
     text-align: center;
     padding-bottom: 10px;
-  }
-  
-  .icon
-  {
+}
+
+.icon {
     text-align: center;
     color: white;
-    padding-top:10px;
-  }
-  .fab
-  {
+    padding-top: 10px;
+}
+
+.fab {
     color: #A865C9;
-    font-size:20px;
-  }
-  .fab:hover
-  {
+    font-size: 20px;
+}
+
+.fab:hover {
     color: black;
     transform: scale(1.2);
-  }
-  .box1,.box2,.box3{
+}
+
+.box1,
+.box2,
+.box3 {
     padding: 20px;
-  }
+}

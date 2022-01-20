@@ -27,7 +27,6 @@ import { useNavigate } from "react-router-dom";
 import { makeStyles } from '@mui/styles';
 import ShowChartIcon from '@mui/icons-material/ShowChart';
 import { Link } from "react-router-dom";
-import Footer from '../../../Components/Footer'
 
 const drawerWidth = 240;
 const openedMixin = (theme) => ({
@@ -107,8 +106,6 @@ export default function NewsPgStocks() {
   const classes = useStyles();
   const theme = useTheme();
   const [open, setOpen] = useState(false);
-  const pageSize = 9;
-  const apiKey = "76f51b9df6e04a998ddb1471f6b77181";
   const [progress, setProgress] = useState(0);
   const navigate = useNavigate();
   function handleClickHome() {
@@ -140,12 +137,13 @@ export default function NewsPgStocks() {
   };
 
   return (
-    <Box sx={{ display: "flex" }}>
+      <Box sx={{ display: "flex" }}>
       <CssBaseline />
       <Divider />
       <AppBar position="fixed" open={open} sx={{ background: "#4B0082" }}>
-        <Toolbar sx={{ backgroundImage: "linear-gradient(#000428,#5f0a87)" }}>
-
+        <Toolbar sx={{
+          backgroundImage: "linear-gradient(#000428,#5f0a87)"
+        }}>
           <IconButton
             color="inherit"
             aria-label="open drawer"
@@ -197,7 +195,7 @@ export default function NewsPgStocks() {
             <ListItemText primary="News" />
           </ListItem>
           <br />
-          <ListItem className={classes.listItem} button key="4" onClick={handleClickSearch}>
+          <ListItem className={classes.listItem} button key="6" onClick={handleClickSearch}>
             <ListItemIcon>
               <SearchTwoToneIcon style={{ color: "#fafafa" }} />
             </ListItemIcon>
@@ -219,7 +217,6 @@ export default function NewsPgStocks() {
             </ListItemIcon>
             <ListItemText primary="Contact Us" />
           </ListItem>
-          <br />
         </List>
       </Drawer>
       <Box component="main" sx={{ flexGrow: 1, p: 3 }}>
@@ -228,15 +225,12 @@ export default function NewsPgStocks() {
         <Typography>
           <News
             setProgress={setProgress}
-            apiKey={apiKey}
             key="business"
-            pageSize={pageSize}
             country="in"
             category="business"
           />
-          <Footer />
         </Typography>
       </Box>
     </Box>
   );
-}
+  }
