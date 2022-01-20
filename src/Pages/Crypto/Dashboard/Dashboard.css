@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+.market {
+    font: bold 200% Consolas, Monaco, monospace;
+    border-right: 0.1em solid;
+    width: 20ch;
+    margin: .5em auto;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+    animation: typing 3s steps(20, end), cursor-blink 0.3s step-end infinite alternate;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+
+@keyframes cursor-blink {
+    50% {
+        border-color: transparent;
+        color: yellowgreen
+    }
+}
+
+.heading-crypto {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
