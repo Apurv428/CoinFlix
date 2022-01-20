@@ -47,21 +47,12 @@ CoinFlix is the ultimate cryptocurrency and stock-market tracker and has an intu
 - [x] Implemented Vanta.js.
 - [x] Impented Firebase to store the data received from the form.
 
-## File Structure
-
+#### File Structure
 📦CoinFlix
  ┣ 📂public
- ┃ ┣ 📜android-chrome-192x192.png
- ┃ ┣ 📜android-chrome-384x384.png
- ┃ ┣ 📜apple-touch-icon.png
- ┃ ┣ 📜favicon-16x16.png
- ┃ ┣ 📜favicon-32x32.png
  ┃ ┣ 📜favicon.ico
  ┃ ┣ 📜index.html
- ┃ ┣ 📜logo192.png
- ┃ ┣ 📜logo512.png
  ┃ ┣ 📜manifest.json
- ┃ ┣ 📜mstile-150x150.png
  ┃ ┣ 📜robots.txt
  ┃ ┣ 📜site.webmanifest
  ┃ ┗ 📜_redirects
@@ -133,10 +124,7 @@ CoinFlix is the ultimate cryptocurrency and stock-market tracker and has an intu
  ┃ ┣ 📜App.js
  ┃ ┣ 📜App.test.js
  ┃ ┣ 📜index.css
- ┃ ┣ 📜index.js
- ┃ ┣ 📜logo.svg
- ┃ ┣ 📜reportWebVitals.js
- ┃ ┗ 📜setupTests.js
+ ┃ ┗ 📜index.js
  ┣ 📜.gitignore
  ┣ 📜package-lock.json
  ┣ 📜package.json
