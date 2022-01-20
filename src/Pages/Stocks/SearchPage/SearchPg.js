@@ -117,19 +117,19 @@ export default function SearchPgStock() {
     navigate("/", { replace: true });
   }
   function handleClickDashboard() {
-    navigate("/crypto", { replace: true });
+    navigate("/stocks", { replace: true });
   }
   function handleClickNews() {
-    navigate("/crypto/news", { replace: true });
+    navigate("/stocks/news", { replace: true });
   }
   function handleClickAbout() {
-    navigate("/crypto/about", { replace: true });
+    navigate("/stocks/about", { replace: true });
   }
   function handleClickContact() {
-    navigate("/crypto/contact", { replace: true });
+    navigate("/stocks/contact", { replace: true });
   }
   function handleClickSearch() {
-    navigate("/crypto/search", { replace: true });
+    navigate("/stocks/search", { replace: true });
   }
   const fetchStocks = async (search) => {
     try {
