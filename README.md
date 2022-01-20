@@ -52,87 +52,87 @@ Tools and technologies that you learnt and used in the project.
 - [x] Impented Firebase to store the data received from the form.
 
 ## File structure
-📦CoinFlix.
-┣ 📂public.
-┃ ┣ 📜favicon.ico.
-┃ ┣ 📜index.html.
-┃ ┣ 📜manifest.json.
-┃ ┣ 📜robots.txt.
- ┃ ┣ 📜site.webmanifest.
- ┃ ┗ 📜_redirects
- ┣ 📂src
- ┃ ┣ 📂Components
- ┃ ┃ ┣ 📜Footer.css
- ┃ ┃ ┗ 📜Footer.js
- ┃ ┣ 📂Pages
- ┃ ┃ ┣ 📂Crypto
- ┃ ┃ ┃ ┣ 📂About
- ┃ ┃ ┃ ┃ ┣ 📜AboutPg.css
- ┃ ┃ ┃ ┃ ┗ 📜AboutPg.js
- ┃ ┃ ┃ ┣ 📂Config
- ┃ ┃ ┃ ┃ ┣ 📜api.js
- ┃ ┃ ┃ ┃ ┗ 📜data.js
- ┃ ┃ ┃ ┣ 📂ContactPage
- ┃ ┃ ┃ ┃ ┣ 📜ContactPg.css
- ┃ ┃ ┃ ┃ ┣ 📜ContactPg.js
- ┃ ┃ ┃ ┃ ┗ 📜firebase.js
- ┃ ┃ ┃ ┣ 📂Dashboard
- ┃ ┃ ┃ ┃ ┣ 📜CryptoContext.js
- ┃ ┃ ┃ ┃ ┣ 📜Dashboard.css
- ┃ ┃ ┃ ┃ ┗ 📜Dashboard.js
- ┃ ┃ ┃ ┣ 📂News
- ┃ ┃ ┃ ┃ ┣ 📜loading.gif
- ┃ ┃ ┃ ┃ ┣ 📜News.css
- ┃ ┃ ┃ ┃ ┣ 📜News.js
- ┃ ┃ ┃ ┃ ┣ 📜NewsItem.js
- ┃ ┃ ┃ ┃ ┣ 📜NewsPg.js
- ┃ ┃ ┃ ┃ ┣ 📜ScrollButton.js
- ┃ ┃ ┃ ┃ ┣ 📜Spinner.js
- ┃ ┃ ┃ ┃ ┗ 📜Styles.js
- ┃ ┃ ┃ ┗ 📂SearchPage
- ┃ ┃ ┃ ┃ ┣ 📜Coin.css
- ┃ ┃ ┃ ┃ ┣ 📜Coin.js
- ┃ ┃ ┃ ┃ ┗ 📜SearchPg.js
- ┃ ┃ ┣ 📂LandingPage
- ┃ ┃ ┃ ┣ 📜LandingPg.css
- ┃ ┃ ┃ ┗ 📜LandingPg.js
- ┃ ┃ ┗ 📂Stocks
- ┃ ┃ ┃ ┣ 📂About
- ┃ ┃ ┃ ┃ ┣ 📜AboutPg.css
- ┃ ┃ ┃ ┃ ┗ 📜AboutPg.js
- ┃ ┃ ┃ ┣ 📂Config
- ┃ ┃ ┃ ┃ ┣ 📜api.js
- ┃ ┃ ┃ ┃ ┗ 📜iex.js
- ┃ ┃ ┃ ┣ 📂ContactPage
- ┃ ┃ ┃ ┃ ┣ 📜ContactPg.css
- ┃ ┃ ┃ ┃ ┣ 📜ContactPg.js
- ┃ ┃ ┃ ┃ ┗ 📜firebase.js
- ┃ ┃ ┃ ┣ 📂Dashboard
- ┃ ┃ ┃ ┃ ┣ 📜Card.js
- ┃ ┃ ┃ ┃ ┣ 📜CryptoContext.js
- ┃ ┃ ┃ ┃ ┣ 📜Dashboard.css
- ┃ ┃ ┃ ┃ ┗ 📜Dashboard.js
- ┃ ┃ ┃ ┣ 📂News
- ┃ ┃ ┃ ┃ ┣ 📜loading.gif
- ┃ ┃ ┃ ┃ ┣ 📜News.css
- ┃ ┃ ┃ ┃ ┣ 📜News.js
- ┃ ┃ ┃ ┃ ┣ 📜NewsItem.js
- ┃ ┃ ┃ ┃ ┣ 📜NewsPg.js
- ┃ ┃ ┃ ┃ ┣ 📜ScrollButton.js
- ┃ ┃ ┃ ┃ ┣ 📜Spinner.js
- ┃ ┃ ┃ ┃ ┗ 📜Styles.js
- ┃ ┃ ┃ ┗ 📂SearchPage
- ┃ ┃ ┃ ┃ ┣ 📜SearchPg.css
- ┃ ┃ ┃ ┃ ┗ 📜SearchPg.js
- ┃ ┣ 📜App.css
- ┃ ┣ 📜App.js
- ┃ ┣ 📜App.test.js
- ┃ ┣ 📜index.css
- ┃ ┣ 📜index.js
- ┣ 📜.gitignore
- ┣ 📜package-lock.json
- ┣ 📜package.json
- ┗ 📜README.md
+📦CoinFlix.  
+┣ 📂public.  
+┃ ┣ 📜favicon.ico.  
+┃ ┣ 📜index.html.  
+┃ ┣ 📜manifest.json.  
+┃ ┣ 📜robots.txt.  
+ ┃ ┣ 📜site.webmanifest.  
+ ┃ ┗ 📜_redirects  
+ ┣ 📂src  
+ ┃ ┣ 📂Components  
+ ┃ ┃ ┣ 📜Footer.css  
+ ┃ ┃ ┗ 📜Footer.js  
+ ┃ ┣ 📂Pages  
+ ┃ ┃ ┣ 📂Crypto  
+ ┃ ┃ ┃ ┣ 📂About  
+ ┃ ┃ ┃ ┃ ┣ 📜AboutPg.css  
+ ┃ ┃ ┃ ┃ ┗ 📜AboutPg.js  
+ ┃ ┃ ┃ ┣ 📂Config  
+ ┃ ┃ ┃ ┃ ┣ 📜api.js  
+ ┃ ┃ ┃ ┃ ┗ 📜data.js  
+ ┃ ┃ ┃ ┣ 📂ContactPage  
+ ┃ ┃ ┃ ┃ ┣ 📜ContactPg.css  
+ ┃ ┃ ┃ ┃ ┣ 📜ContactPg.js  
+ ┃ ┃ ┃ ┃ ┗ 📜firebase.js  
+ ┃ ┃ ┃ ┣ 📂Dashboard  
+ ┃ ┃ ┃ ┃ ┣ 📜CryptoContext.js  
+ ┃ ┃ ┃ ┃ ┣ 📜Dashboard.css  
+ ┃ ┃ ┃ ┃ ┗ 📜Dashboard.js  
+ ┃ ┃ ┃ ┣ 📂News  
+ ┃ ┃ ┃ ┃ ┣ 📜loading.gif  
+ ┃ ┃ ┃ ┃ ┣ 📜News.css  
+ ┃ ┃ ┃ ┃ ┣ 📜News.js  
+ ┃ ┃ ┃ ┃ ┣ 📜NewsItem.js  
+ ┃ ┃ ┃ ┃ ┣ 📜NewsPg.js  
+ ┃ ┃ ┃ ┃ ┣ 📜ScrollButton.js  
+ ┃ ┃ ┃ ┃ ┣ 📜Spinner.js  
+ ┃ ┃ ┃ ┃ ┗ 📜Styles.js  
+ ┃ ┃ ┃ ┗ 📂SearchPage  
+ ┃ ┃ ┃ ┃ ┣ 📜Coin.css  
+ ┃ ┃ ┃ ┃ ┣ 📜Coin.js  
+ ┃ ┃ ┃ ┃ ┗ 📜SearchPg.js  
+ ┃ ┃ ┣ 📂LandingPage  
+ ┃ ┃ ┃ ┣ 📜LandingPg.css  
+ ┃ ┃ ┃ ┗ 📜LandingPg.js  
+ ┃ ┃ ┗ 📂Stocks  
+ ┃ ┃ ┃ ┣ 📂About  
+ ┃ ┃ ┃ ┃ ┣ 📜AboutPg.css  
+ ┃ ┃ ┃ ┃ ┗ 📜AboutPg.js  
+ ┃ ┃ ┃ ┣ 📂Config  
+ ┃ ┃ ┃ ┃ ┣ 📜api.js  
+ ┃ ┃ ┃ ┃ ┗ 📜iex.js  
+ ┃ ┃ ┃ ┣ 📂ContactPage  
+ ┃ ┃ ┃ ┃ ┣ 📜ContactPg.css  
+ ┃ ┃ ┃ ┃ ┣ 📜ContactPg.js  
+ ┃ ┃ ┃ ┃ ┗ 📜firebase.js  
+ ┃ ┃ ┃ ┣ 📂Dashboard  
+ ┃ ┃ ┃ ┃ ┣ 📜Card.js  
+ ┃ ┃ ┃ ┃ ┣ 📜CryptoContext.js  
+ ┃ ┃ ┃ ┃ ┣ 📜Dashboard.css  
+ ┃ ┃ ┃ ┃ ┗ 📜Dashboard.js  
+ ┃ ┃ ┃ ┣ 📂News  
+ ┃ ┃ ┃ ┃ ┣ 📜loading.gif  
+ ┃ ┃ ┃ ┃ ┣ 📜News.css  
+ ┃ ┃ ┃ ┃ ┣ 📜News.js  
+ ┃ ┃ ┃ ┃ ┣ 📜NewsItem.js  
+ ┃ ┃ ┃ ┃ ┣ 📜NewsPg.js  
+ ┃ ┃ ┃ ┃ ┣ 📜ScrollButton.js  
+ ┃ ┃ ┃ ┃ ┣ 📜Spinner.js  
+ ┃ ┃ ┃ ┃ ┗ 📜Styles.js  
+ ┃ ┃ ┃ ┗ 📂SearchPage  
+ ┃ ┃ ┃ ┃ ┣ 📜SearchPg.css  
+ ┃ ┃ ┃ ┃ ┗ 📜SearchPg.js  
+ ┃ ┣ 📜App.css  
+ ┃ ┣ 📜App.js  
+ ┃ ┣ 📜App.test.js  
+ ┃ ┣ 📜index.css  
+ ┃ ┣ 📜index.js  
+ ┣ 📜.gitignore  
+ ┣ 📜package-lock.json  
+ ┣ 📜package.json  
+ ┗ 📜README.md  
  
 ## Future Prospects
 - [ ] Making a full-stack website reponsive.
