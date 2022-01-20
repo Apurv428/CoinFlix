@@ -1,4 +1,4 @@
-# Project-name
+# Project-name : CoinFlix
 
 ### Team name: Binary Beasts
 
@@ -9,18 +9,13 @@
 
 
 ## Description
-<!-- Add your project description here. Your project description should cover how your website/app works. That way you can convey what your project is without the need for anyone to view the code. A more detailed readme in your project repository is encouraged, which can include build and use instructions etc.
-
-* Use bullet points for any feature descriptions you may want to add
-
-
-Don't forget to replace the link here with your own Github repository link.
-
-Along with this, add the link of the drive folder that contains the app APK/Screenshots/Screen Recordings. If you have hosted your project on the web, add that link as well. -->
 CoinFlix is the ultimate cryptocurrency and stock-market tracker and has an intuitive interface with all the data you need at your fingertips. It is easy to use for beginners too!
 
 * The stock or cryptocurrency is displayed when the user search for it.
-* Their attributes indicating their degree of similarity.
+* It also displays the latest Finance news of India.
+* The user can then track and mend his/her investments accordingly.
+* The user will also get information about the top trending cryptocurrencies.
+* The user will also get info about the top gainers and loosers in the stock market.
 
 
 * GitHub repo link: [GitHub](https://github.com/Apurv428/CoinFlix)
@@ -49,10 +44,10 @@ Tools and technologies that you learnt and used in the project.
 ## Progress
 
 - [x] Design Website UI.
-- [x] Setup API services to display data related to stock and cryptocurrency prices 
-- [x] Fetch news from In-shorts news API
-- [x] Implemented Vanta.js
-- [x] mplemented Firebase to store the data received from the form.
+- [x] Setup API services to display data related to stock and cryptocurrency prices.
+- [x] Fetch news from inshorts news API.
+- [x] Implemented Vanta.js.
+- [x] Impented Firebase to store the data received from the form.
 
 <!-- List down all the tasks/features for your project and cross out the ones which are completed. -->
 📦CoinFlix
@@ -182,21 +177,18 @@ Instead, it will copy all the configuration files and the transitive dependencie
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
 ## Usage
+
 1. The user can search for the trends of a particular stock or cryptocurrency.
 2. The user can then track and mend his/her investments accordingly.
 3. It also displays the latest business news from around the globe.
 
-
-## Applications
-It provides an intuative interface with all the data from stock and the crypto world you need at your fingertips.
-
-
 ## Future scope
+
 * This concept can also be applied for the Forex trading.
 * Predict future trends in the prices of the respective assets using ML.
 
 
 ## Mentors
-  This project would not have been possible without the continous support of our mentors.
+
 * [Meera Wadher](https://github.com/Meera-W)
 * [Mithilesh Patil](https://github.com/01mithilesh01)
