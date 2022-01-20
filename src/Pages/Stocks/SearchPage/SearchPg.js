@@ -310,7 +310,7 @@ export default function SearchPgStock() {
                     color: "white",
                   }}
                 >
-                  <SearchIcon fontSize="large" />
+                  <SearchIcon fontSize="small" />
                 </Button>
               </form>
             </div>
