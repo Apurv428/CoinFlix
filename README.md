@@ -4,11 +4,11 @@
 
 ## Team members
 
-* [Pratiksha Sankhe](https://github.com/psankhe28) - sankhepratiksha3@gmail.com
 * [Apurv Sonawane](https://github.com/Apurv428) - apurvsonawane28@gmail.com
-
+* [Pratiksha Sankhe](https://github.com/psankhe28) - sankhepratiksha3@gmail.com
 
 ## Description
+
 CoinFlix is the ultimate cryptocurrency and stock-market tracker and has an intuitive interface with all the data you need at your fingertips. It is easy to use for beginners too!
 
 * The stock or cryptocurrency is displayed when the user search for it.
@@ -17,12 +17,12 @@ CoinFlix is the ultimate cryptocurrency and stock-market tracker and has an intu
 * The user will also get information about the top trending cryptocurrencies.
 * The user will also get info about the top gainers and loosers in the stock market.
 
-
 * GitHub repo link: [GitHub](https://github.com/Apurv428/CoinFlix)
 * Drive link: [Drive](https://drive.google.com/drive/folders/1v1VVJW-2SXQJYHhatBgd1d-K5_nduqeS?usp=sharing)
 * Website link: [Website](https://coinflix.vercel.app/)
 
-## Technology stack
+## Tech stack
+
 <a href="https://www.w3.org/TR/html5/" title="HTML5"><img src="https://github.com/get-icon/geticon/raw/master/icons/html-5.svg" alt="HTML5" width="31px" height="31px"></a>
 <a href="https://www.w3.org/TR/CSS/" title="CSS3"><img src="https://github.com/get-icon/geticon/raw/master/icons/css-3.svg" alt="CSS3" width="31px" height="31px"></a>
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" title="JavaScript"><img src="https://github.com/get-icon/geticon/raw/master/icons/javascript.svg" alt="JavaScript" width="31px" height="31px"></a>
@@ -31,15 +31,13 @@ CoinFlix is the ultimate cryptocurrency and stock-market tracker and has an intu
 <a href="https://firebase.google.com/" title="Firebase"><img src="https://github.com/get-icon/geticon/blob/master/icons/firebase.svg" alt="Firebase" width="31px" height="31px"></a>
 <a href="Fontawesome" title="Firebase"><img src="https://github.com/get-icon/geticon/blob/master/icons/font-awesome.svg" alt="Fontawesome" width="31px" height="31px"></a>
 
-
-Tools and technologies that you learnt and used in the project.
+## Tools and technologies that you learnt and used in the project.
 
 1. React
 2. Firebase
 3. HTML/CSS/JS
 4. Material-Ui
 5. Bootstrap
-
 
 ## Progress
 
@@ -49,12 +47,21 @@ Tools and technologies that you learnt and used in the project.
 - [x] Implemented Vanta.js.
 - [x] Impented Firebase to store the data received from the form.
 
-<!-- List down all the tasks/features for your project and cross out the ones which are completed. -->
+## File Structure
+
 📦CoinFlix
  ┣ 📂public
+ ┃ ┣ 📜android-chrome-192x192.png
+ ┃ ┣ 📜android-chrome-384x384.png
+ ┃ ┣ 📜apple-touch-icon.png
+ ┃ ┣ 📜favicon-16x16.png
+ ┃ ┣ 📜favicon-32x32.png
  ┃ ┣ 📜favicon.ico
  ┃ ┣ 📜index.html
+ ┃ ┣ 📜logo192.png
+ ┃ ┣ 📜logo512.png
  ┃ ┣ 📜manifest.json
+ ┃ ┣ 📜mstile-150x150.png
  ┃ ┣ 📜robots.txt
  ┃ ┣ 📜site.webmanifest
  ┃ ┗ 📜_redirects
@@ -127,18 +134,23 @@ Tools and technologies that you learnt and used in the project.
  ┃ ┣ 📜App.test.js
  ┃ ┣ 📜index.css
  ┃ ┣ 📜index.js
+ ┃ ┣ 📜logo.svg
+ ┃ ┣ 📜reportWebVitals.js
+ ┃ ┗ 📜setupTests.js
  ┣ 📜.gitignore
  ┣ 📜package-lock.json
  ┣ 📜package.json
  ┗ 📜README.md
  
 ## Future Prospects
+
 - [ ] Making a full-stack website reponsive.
 - [ ] Display Forex data
 - [ ] Add auto-suggest feature for searching stock and crypto
 - [ ] Predict future trends in the prices of the respective assets using ML
 
 ## Project Setup
+
 #### File Structure
 
 In the project directory, you can run:
@@ -186,7 +198,6 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 * This concept can also be applied for the Forex trading.
 * Predict future trends in the prices of the respective assets using ML.
-
 
 ## Mentors
 
